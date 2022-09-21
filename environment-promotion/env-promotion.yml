@@ -21,7 +21,7 @@ spec:
       source:
         repoURL: https://github.com/connorteague/gitops-cert-level-2-examples.git
         targetRevision: HEAD
-        path: '{{path}}'
+        path: 'environment-promotion/envs/{{path}}'
       
       # Destination cluster and namespace to deploy the application
       destination:
